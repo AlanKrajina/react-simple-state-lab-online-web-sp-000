@@ -11,7 +11,7 @@ export default class Cell extends Component {
 
   render() {
     return (
-      <div id="matrix">
+      <div className='val'>
         {this.genMatrix()}
       </div>
     )
