@@ -17,7 +17,7 @@ export default class Cell extends Component {
 
   render() {
     return (
-      <div onClick={this.changeBack} className='val'>
+      <div onClick={this.setState} className='val'>
       </div>
     )
   }
