@@ -9,7 +9,7 @@ export default class Cell extends Component {
     }
   }
 
-  changeBack = () => {
+  setState = () => {
     this.setState({
       color: '#333'
     })
