@@ -11,7 +11,7 @@ export default class Cell extends Component {
 
   changeBack = () => {
     this.setState({
-      color: this.state.props
+      color: '#333'
     })
   }
 
