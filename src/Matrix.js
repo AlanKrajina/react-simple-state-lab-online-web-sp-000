@@ -17,9 +17,6 @@ export default class Matrix extends Component {
     return (
       <div id="matrix">
         {this.genMatrix()}
-        {this.genRow(vals)}
-
-      //  <Cell value={val} />
       </div>
     )
   }
