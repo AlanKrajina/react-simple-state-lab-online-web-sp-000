@@ -9,10 +9,16 @@ export default class Cell extends Component {
     }
   }
 
+  changeBack = () => {
+    this.setState({
+      color: this.state.props
+    })
+  }
+
   render() {
     return (
       <div className='val'>
-        {this.genMatrix()}
+        {this.changeBack()}
       </div>
     )
   }
