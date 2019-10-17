@@ -9,7 +9,7 @@ export default class Cell extends Component {
     }
   }
 
-  setState = () => {
+  changeBack = () => {
     this.setState({
       color: '#333'
     })
@@ -17,7 +17,7 @@ export default class Cell extends Component {
 
   render() {
     return (
-      <div onClick={this.setState()} className='val'>
+      <div onClick={this.changeBack} className='val'>
       </div>
     )
   }
